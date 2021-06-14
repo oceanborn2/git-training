@@ -1,0 +1,61 @@
+= GIT presentation & tutorial
+:author: Pascal Munerot <pascal.munerot@glory-global.com>
+:date: 2021-06-14
+:doctype: book
+:imagesdir: images
+:source-highlighter: rouge
+
+
+--
+* A presentation on GIT basic usage.
+
+* Identify potential use case for GIT beyond development
+
+--
+
+== Agenda
+
+1. What is source code control?
+
+2. What is git?
+
+3. Usage review
+
+- Well known use cases
+
+- Benefits and pitfalls over other SCM tools
+
+4. Glory potential use cases
+
+5. Tooling
+
+
+
+|===
+|Header 1 |Header 2 |Header 3
+
+|Column 1, row 1
+|Column 2, row 1
+|Column 3, row 1
+
+|Column 1, row 2
+|Column 2, row 2
+|Column 3, row 2
+
+|Column 1, row 3
+|Column 2, row 3
+|Column 3, row 3
+|===
+
+
+include::presentation-appendix.adoc[]
+
+== Tutorials
+
+* https://git-scm.com/docs/gittutorial[]
+
+== Books
+
+* 
+
+
