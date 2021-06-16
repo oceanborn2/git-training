@@ -57,7 +57,7 @@ asciidoctor {
             encoding: 'utf-8'
 
     resources {
-        from('src/docs/asciidoc') {
+        from('docs/asciidoc') {
             include '**/*.png'
         }
     }

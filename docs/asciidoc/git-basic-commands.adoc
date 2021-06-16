@@ -1,0 +1,22 @@
+= GIT basic commands
+
+.git init : create an empty repository
+[source, bash]
+----
+git init
+----
+
+.git add : add new files (or modifications such as deletion or modification, renaming, moves) to the index
+[source, bash]
+----
+git add
+----
+
+
+.git log : show the revisions / history
+[source, bash]
+----
+git log
+----
+
+

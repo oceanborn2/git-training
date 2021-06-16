@@ -63,54 +63,15 @@ include::presentation-appendix.adoc[]
 --
 * A presentation on GIT basic usage.
 
-* Identify potential use case for GIT beyond development
-
+* Identify potential use cases for GIT with and beyond development.
 --
 
-== Agenda
-
-1. What is source code control?
-
-2. What is git?
-
-3. Usage review
-
-- Well known use cases
-
-- Benefits and pitfalls over other SCM tools
-
-4. Glory potential use cases
-
-5. Tooling
 
 
-
-|===
-|Header 1 |Header 2 |Header 3
-
-|Column 1, row 1
-|Column 2, row 1
-|Column 3, row 1
-
-|Column 1, row 2
-|Column 2, row 2
-|Column 3, row 2
-
-|Column 1, row 3
-|Column 2, row 3
-|Column 3, row 3
-|===
-
-
-//include::presentation-appendix.adoc[]
-
-== Tutorials
-
-* https://git-scm.com/docs/gittutorial[]
-
-== Books
-
-* 
-
+include::presentation-agenda.adoc[]
+include::git-main-concepts.adoc[]
+include::git-basic-commands.adoc[]
+include::glory-specific.adoc[]
+include::presentation-appendix.adoc[]
 
 >>>>>>> 506efa8 (added):docs/asciidoc/presentation.adoc
