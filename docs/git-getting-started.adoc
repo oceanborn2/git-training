@@ -51,10 +51,10 @@ In order to install Tortoise GIT, please download it from the site and install a
 ## docs (3)
 ## logs (4)
 ----
-<1> 1. git special folder 
-<2> 2. source code
-<3> 3. documentation files
-<4> 4. log files
+<1> git special folder
+<2> source code
+<3> documentation files
+<4> log files
 
 *This is only an example* so the actual folder locations could be different based on the project requirements.
 
@@ -75,12 +75,12 @@ This is a special subfolder that GIT uses to store the objects, indices, configu
 ## refs (5)
 ## config (6)
 ----
-<1> 1. For trigger scripts (ksh or windows shell?)
-<2> 2. TODO
-<3> 3. Log files
-<4> 4. Actual objects storage
-<5> 5. References link ?
-<6> 6. Main configuration file
+<1> For trigger scripts (ksh or windows shell?)
+<2> TODO
+<3> Log files
+<4> Actual objects storage
+<5> References link ?
+<6> Main configuration file
 
    
    

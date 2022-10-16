@@ -42,7 +42,6 @@
 
 include::presentation-agenda.adoc[]
 
-include::presentation-getting-started.adoc[]
 
 
 include::presentation-appendix.adoc[]
