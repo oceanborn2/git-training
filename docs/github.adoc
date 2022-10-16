@@ -40,14 +40,14 @@ A repository can be accessed through its URL (or more correctly URI).
 
 image::images/ref/github-get-repo-url.png[]
 
-The URL for the GIT repository is https://github.com/glory-pscoe/git-training.git[]
+The URL for the GIT repository is https://github.com/oceanborn2/git-training.git[]
 
 .Let's try first from the command line
 
 [source, bash]
 ----
-git clone https://github.com/glory-pscoe/git-training.git
-# munerotp@LFRCRA02447  /d/co % git clone https://github.com/glory-pscoe/git-training.git
+git clone https://github.com/oceanborn2/git-training.git
+# /d/co % git clone https://github.com/oceanborn2/git-training.git
 # Cloning into 'git-training'...
 # remote: Enumerating objects: 600, done.
 # remote: Counting objects: 100% (600/600), done.
@@ -57,7 +57,7 @@ git clone https://github.com/glory-pscoe/git-training.git
 # Resolving deltas: 100% (190/190), done.
 #
 # or through the github cli command
-gh repo clone glory-pscoe/git-training
+gh repo clone oceanborn2/git-training
 # not shown here => TODO later
 ----
 

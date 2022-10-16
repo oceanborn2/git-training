@@ -2,7 +2,7 @@
 include::_settings_deck.adoc[]
 include::_settings_vars.adoc[]
 
-:author: Pascal Munerot <pascal.munerot@glory-global.com>
+:author: Pascal Munerot <pascal.munerot@gmail.com>
 :date: 2021-06-14
 :imagesdir: images
 :icons: font
@@ -14,8 +14,6 @@ include::git-getting-started.adoc[]
 include::git-main-concepts.adoc[]
 
 include::git-basic-commands.adoc[]
-
-include::glory-specific.adoc[]
 
 include::presentation-appendix.adoc[]
 

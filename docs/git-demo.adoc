@@ -102,7 +102,7 @@ git commit -m "initial commit" # <1>
 git commit # <2>
 gitdemo % git commit -m "initial commit"
 # [master (root-commit) d8a2c83] initial commit
-#  Committer: Munerot <munerotp@fr.glory-global.com>
+#  Committer: Munerot <munerotp@gmail.com>
 # Your name and email address were configured # <3>
 # automatically based on your username and hostname. Please check that they are accurate.
 # You can suppress this message by setting them explicitly. Run the following command and follow the instructions in your editor to edit your configuration file:
@@ -193,7 +193,7 @@ git status # <2>
 ----
 git commit -m "added  helloworld program"
 # [master d44652a] added  helloworld program  # <1>
-#  Committer: Munerot <munerotp@fr.glory-global.com>
+#  Committer: Munerot <munerotp@gmail.com>
 #  ... 
 # 1 file changed, 28 insertions(+) # <2> 
 # create mode 100644 src/HelloWorld.java
@@ -212,13 +212,13 @@ image::images/ref/tortoise_after_add2_commit.png[]
 ----
 git log
 # commit d44652a301cf9d2a12a6327fb1fac37d09088310 (HEAD -> master)
-# Author: Munerot <munerotp@fr.glory-global.com>
+# Author: Munerot <pascal.munerot@gmail.com>
 # Date:   Wed Jun 23 13:44:11 2021 +0200
 #
 #     added  helloworld program
 #
 # commit d8a2c832a176d2ffb06df1a1bbcbaebf029abf8b
-# Author: Munerot <munerotp@fr.glory-global.com>
+# Author: Munerot <pascal.munerot@gmail.com>
 # Date:   Wed Jun 23 13:23:29 2021 +0200
 #
 #     initial commit
