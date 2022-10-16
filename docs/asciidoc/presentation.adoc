@@ -1,6 +1,5 @@
-<<<<<<< HEAD:presentation.adoc
 = GIT presentation & tutorial
-:author: Pascal Munerot <pascal.munerot@glory-global.com>
+:author: Pascal Munerot <pascal.munerot@gmail.com>
 :date: 2021-06-14
 :icons: font
 // we want local served fonts. Therefore patched sky.css
@@ -53,7 +52,7 @@ include::presentation-appendix.adoc[]
 * https://git-scm.com/docs/gittutorial[]
 =======
 = GIT presentation & tutorial
-:author: Pascal Munerot <pascal.munerot@glory-global.com>
+:author: Pascal Munerot <pascal.munerot@gmail.com>
 :date: 2021-06-14
 :doctype: book
 :imagesdir: images
@@ -73,5 +72,3 @@ include::git-main-concepts.adoc[]
 include::git-basic-commands.adoc[]
 include::glory-specific.adoc[]
 include::presentation-appendix.adoc[]
-
->>>>>>> 506efa8 (added):docs/asciidoc/presentation.adoc

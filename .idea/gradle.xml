@@ -4,8 +4,15 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <option name="delegatedBuild" value="true" />
+        <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+<<<<<<< HEAD
+=======
+        <option name="gradleHome" value="$PROJECT_DIR$/../../software/scoop/apps/gradle/current" />
+        <option name="gradleJvm" value="11" />
+>>>>>>> a0e51b5 (- sync before trying revealjs)
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
