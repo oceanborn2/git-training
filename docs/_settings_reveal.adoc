@@ -1,0 +1,82 @@
+:backend: revealjs
+:encoding: utf-8
+:lang: en
+
+////
+Following attributes are defaults for reveal.js. You are free to change or remove them.
+////
+
+:revealjs_controls: true
+:revealjs_progress: true
+:revealjs_slidenumber: true
+:revealjs_history: true
+:revealjs_keyboard: true
+:revealjs_overview: true
+:revealjs_center: false
+:revealjs_touch: true
+:revealjs_loop: false
+:revealjs_rtl: false
+:revealjs_fragments: true
+:revealjs_embedded: false
+:revealjs_autoslide: 0
+:revealjs_autoslidestoppable: true
+:revealjs_mousewheel: true
+:revealjs_hideaddressbar: true
+:revealjs_previewlinks: false
+
+:revealjs_transition: default
+:revealjs_transitionspeed: default
+:revealjs_backgroundtransition: default
+:revealjs_viewdistance: 3
+:revealjs_parallaxbackgroundimage:
+:revealjs_parallaxbackgroundsize: 
+:revealjs_customtheme: ./reveal.js/css/theme/serif.css
+:revealjs_theme: serif
+
+:iconfont-remote!:
+:iconfont-name: docs/fonts/fontawesome/css/all
+
+
+//   :revealjs_customtheme: css/sky.css
+
+
+//:revealjs_theme: sky
+
+//:revealjs_autoSlide: 5000
+
+//:revealjs_history: true
+
+//:revealjs_fragmentInURL: true
+
+//:revealjs_viewDistance: 5
+
+//:revealjs_width: 1408
+
+//:revealjs_height: 792
+
+//:revealjs_controls: true
+
+//:revealjs_controlsLayout: edges
+
+//:revealjs_controlsTutorial: true
+
+//:revealjs_slideNumber: c/t
+
+//:revealjs_showSlideNumber: speaker
+
+//:revealjs_autoPlayMedia: true
+
+//:revealjs_defaultTiming: 42
+
+//:revealjs_parallaxBackgroundImage: images/background-landscape-light-orange.jpg
+
+//:revealjs_parallaxBackgroundSize: 4936px 2092px
+
+//:customcss: css/presentation.css
+
+//:imagesdir: images
+
+//:source-highlighter: highlightjs
+
+//:highlightjs-theme: css/atom-one-light.css
+

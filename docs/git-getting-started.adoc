@@ -1,0 +1,90 @@
+include::_settings_vars.adoc[]
+
+== GIT : getting started
+
+=== Distribution 
+
+The distribution for GIT can be found on the 
+https://git-scm.com/download[GIT SCM] home page. +
+
+This page also lists client tools. See the list in <<anc-resources>>.
+
+
+GIT contains two types of clients by default:
+
+* The `git` command line client. This commands has a number of subcommands.
+
+* The `gitui` program acting as a simple graphical interface (based on Tk UI toolkit). footnote:[git-ui.exe on windows]
+
+A good client tool footnote:[A client for GIT is the tool accessing the git repository either locally or on a remote server] for git is https://tortoisegit.org[TortoiseGIT]. As with GIT, the best is to install it with the default settings. footnote:[the line ending characters should be set to Windows for editing locally and Unix for the commits - as defaults]
+
+
+=== Installation
+
+==== GIT installation
+
+- On Windows, simply run the .MSI installer and pick the default settings.
+
+- On Linux, most of the time there is a package, it is installed already or there is a package available in the distribution package system (apt, pacman ...).
+
+TIP: On Windows, Git includes a UNIX like shell footnote:[mingw64]. Shell commands are available: `git-bash` footnote:[recommended] and also a `git-cmd` commands.
+
+    image::images/ref/git-bash.png[]
+
+
+
+==== Client installation : TortoiseGIT
+
+In order to install Tortoise GIT, please download it from the site and install also with the default settings.
+
+
+=== GIT folders overview
+
+==== Working copy folders
+
+.A working copy typical folders layout
+[tree]
+----
+# prj
+## .git (1)
+## src  (2)
+## docs (3)
+## logs (4)
+----
+<1> 1. git special folder 
+<2> 2. source code
+<3> 3. documentation files
+<4> 4. log files
+
+*This is only an example* so the actual folder locations could be different based on the project requirements.
+
+==== Repository folder and subfolders
+
+.Details on the .git folder
+
+This is a special subfolder that GIT uses to store the objects, indices, configuration ...
+
+
+[tree]
+----
+# .git
+## hooks (1)
+## info (2)
+## logs (3)
+## objects (4)
+## refs (5)
+## config (6)
+----
+<1> 1. For trigger scripts (ksh or windows shell?)
+<2> 2. TODO
+<3> 3. Log files
+<4> 4. Actual objects storage
+<5> 5. References link ?
+<6> 6. Main configuration file
+
+   
+   
+<<<
+
+
+*This is only an example* so the actual folder locations could be different based on the project requirements.

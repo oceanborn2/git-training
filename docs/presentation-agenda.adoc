@@ -1,0 +1,20 @@
+[.lightbg,background-video="videos/relaxing.mp4",background-video-loop="true",background-opacity="0.7"]
+
+== Agenda
+
+1. What is source code control?
+
+2. What is git? Benefits and pitfalls over other SCM tools
+
+3. Usage review
+
+- Well known use cases
+
+- Benefits and pitfalls over other SCM tools
+
+4. Tooling
+
+
+
+
+

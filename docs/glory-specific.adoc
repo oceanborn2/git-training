@@ -1,0 +1,21 @@
+== Glory specifics use cases
+
+=== Organisation on github
+
+https://github.com/glory-pscoe[PSCOE github organisation]
+
+=== Possible use cases
+
+|===
+|Use case | Description | Type
+|Hosting of project source code
+|Handle Glory software source code through GIT.
+|Development
+|Manage OS, application and middleware settings (XFS...)
+|Help enforce consistency accross deployed machines.
+|Production / Deployment
+|Knowledge base source files / WIKI
+|Hold documents in both text and binary form.
+|Documentation
+|===
+

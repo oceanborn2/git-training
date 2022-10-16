@@ -1,0 +1,5 @@
+:imagesdir: images
+:source-highlighter: rouge
+
+:git_home: https://www.git-scm.org
+

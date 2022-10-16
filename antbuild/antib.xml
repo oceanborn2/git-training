@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<antlib>
+    <typedef name="antasc"
+             classname="org.asciidoctor.ant."
+             onerror="ignore"/>
+    <macrodef name="print">
+        <attribute name="file"/>
+        <sequential>
+            <concat taskname="print">
+                <fileset dir="." includes="@{file}"/>
+            </concat>
+        </sequential>
+    </macrodef>
+</antlib>

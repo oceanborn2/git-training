@@ -1,0 +1,36 @@
+== GIT glossary & concepts summary
+
+* *revisions* : a revision behaves like a database transactions and contains one or more file modifications.
+
+* *repository* : a repository holds the revisions added through the git commands along with an object store (index). +
+          +
+  Each repository can have one (or more?) remote repositories. This allows for decentralized repositories.
+          +
+          +
+Usually, the current repository is called the `master` while the remote one is called `origin`.
+
+* TODO: Give basic explanation of reflog / references syntax.
+
+[plantuml]
+--
+a -> b
+--
+
+
+NOTES::
+- GIT does not store differences between files but their actual content.
+
+
+- GIT indexes files with SHA1 (hash algorithm). This is very useful to detect how files are moved accross the working copy and thus keep the history intact.
+
+* *working copy*: a folder on a user/developer machine containing the current state of work (modifications)
+
+* *branch*: A linked list of revisions in the revision tree: +
+ - A branch can be the root one +
+ - or derive from a particular transaction (i.e. commit) at any point in the developments' lifecycle.
+
+
+
+
+* *tag*: a tag gives a significant name to a particular revision (commit)
+

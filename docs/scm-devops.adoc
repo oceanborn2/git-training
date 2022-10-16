@@ -1,0 +1,42 @@
+== Software Configuration Management (SCM) versus Source Code Control
+
+SCM tools allow developers (or any other users) to manage project artifacts (source code, documentation, multimedia resources, build scripts ...).
+
+https://en.wikipedia.org/wiki/Software_configuration_management[SCM on wikipedia]
+
+****
+SCM tools are a natural fit in DevOps environment  and contribute to the repeatability and quality of software builds.
+
+    See: Continuous integration, Continuous deployment.
+****
+
+****
+Note that in the true sense, SCM goes beyond files and versions management as it also addresses software configuration (i.e. which features are included in each software release).
+
+Other tools such as issue tracking tools also contribute to SCM.
+
+****
+
+== Source code control tools
+
+These tools facilitate the management of project artifacts accross the project lifecycle. They encourage good practices with change management.
+
+The main benefits :
+
+* Very precise source code control and assets tracking during the project development's lifecycle.
+
+* Powerful comparison and merging features between revisions.
+
+* Ability to manage several development / production versions in parallel (as known as branches)
+
+* Tag specific versions, easily extract them out of automated builds => Continuous integration
+
+* Favors team work & collaboration: Several persons can work at the same time on the same source tree (even on the same files)
+
+* Text based mostly but can handle binary formats too.
+
+* Embedded history (log) system.
+
+* Trigger specific processing based on repository events.
+
+    

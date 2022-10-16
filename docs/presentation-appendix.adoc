@@ -1,0 +1,65 @@
+== Appendices
+
+=== Resources
+
+.Main documentation
+https://git-scm.com/docs[GIT SCM]
+
+.Quick references & cheatsheets
+
+https://marklodato.github.io/visual-git-guide/index-en.html[A visual git reference] - http://marklodato.github.io/visual-git-guide/index-pt.html[Uma Referência Visual do Git]
+
+.Books
+
+* https://git-scm.com/book/en/v2[Progit] : Open source book with lots of explanations and examples.
+
+
+.Articles
+
+* https://onlywei.github.io/explain-git-with-d3/#checkout[Visualizing Git Concepts with D3]
+
+
+.Tools
+
+|===
+|Tool | Home page | Description | User  interface
+
+|GIT
+|https://www.git-scm.org[]
+|The GIT tools suite
+|GIT ui
+
+|TortoiseGIT
+|https://tortoisegit.org[]
+|Windows Explorer integrated GIT shell
+|Tortoise GIT shell
+
+|Github Desktop
+|https://desktop.github.com/[]
+|Github specific repository & project manager
+|
+
+|Atlassian SourceTree
+|https://confluence.atlassian.com/get-started-with-sourcetree/install-sourcetree-847359094.html
+|Good open source tool from Bitbucket
+|
+
+
+
+|===
+
+
+
+.Sources
+
+* https://github.com/pscoe/git-training[Git training source on PSCOE github organisation]
+
+.Tutorials
+
+* https://git-scm.com/docs/gittutorial[gittutorial]
+
+* https://gitimmersion.com[gitimmersion]
+
+.Contact
+
+* mailto:pascal.munerot@gmail.com[Pascal Munerot]

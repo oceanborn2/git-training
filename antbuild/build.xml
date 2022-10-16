@@ -1,0 +1,100 @@
+<project name="Asciidoctor" default="all" basedir="."
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <description>Run asciidoctor to produce a PDF of the GIT presentation</description>
+
+    <property name="maven.central" value="https://repo1.maven.org/maven2/"/>
+    <property name="asciidoctor-version" value="1.6.2"/>
+    <property name="bintray" value="https://dl.bintray.com/binout/maven/"/>
+    <property name="asciidoctor-extensions-version" value="0.2"/>
+
+    <path id="asciidoctor.path">
+        <pathelement location="lib/asciidoctor-ant-${asciidoctor-version}.jar"/>
+        <pathelement location="lib/asciidoctor-extensions.jar"/>
+        <pathelement location="lib/asciidoctor-extensions.jar"/>
+    </path>
+
+    <path id
+
+    <target name="asciidoctor-def">
+        <get src="${bintray}/io/github/binout/asciidoctor/asciidoctor-extensions/${asciidoctor-extensions-version}/asciidoctor-extensions-${asciidoctor-extensions-version}.jar"
+             dest="lib/asciidoctor-extensions.jar" usetimestamp="true"/>
+        <get src="${maven.central}/org/asciidoctor/asciidoctor-ant/${asciidoctor-version}/asciidoctor-ant-${asciidoctor-version}.jar"
+             dest="lib/asciidoctor-ant-${asciidoctor-version}.jar" usetimestamp="true"/>
+        <taskdef uri="antlib:org.asciidoctor.ant" resource="org/asciidoctor/ant/antlib.xml" classpathref="asciidoctor.path"/>
+    </target>
+
+
+<!--    <taskdef uri="antlib:net.sf.antcontrib"
+             resource="net/sf/antcontrib/antlib.xml"
+             classpath="lib/ant-contrib.jar"/>-->
+
+    <target name="env">
+        <property name="lib" value="lib"/>
+        <property name="doc-dir" value="./docs/asciidoc"/>
+        <property name="dist" value="dist"/>
+        <property name="outdir" value="${dist}/out"/>
+        <property name="asciidoctor-ant-version">1.6.2</property>
+<!--        <get src="https://repo1.maven.org/maven2/org/asciidoctor/asciidoctor-ant/${asciidoctor-ant-version}/asciidoctor-ant-${asciidoctor-ant-version}.jar"-->
+<!--             dest="lib/asciidoctor-ant.jar" usetimestamp="true"/>-->
+<!--        <typedef file="antib.xml"/>-->
+    </target>
+
+    <target name="clean" depends="env">
+        <delete dir="${dist}" failonerror="false"/>
+        <mkdir dir="${dist}"/>
+    </target>
+
+    <target name="build-artifacts" description="Generates documentation for all *.xsd files.">
+        <echo>building asciidoc documentation</echo>
+        <!--  <asciidoctor:convert sourceDirectory="src/asciidoc" outputDirectory="target">
+            <require name="monotree"/>
+            <require name="tilt"/>
+            <require name="haml"/>
+            <require name="asciidoctor-diagram"/>
+        </asciidoctor:convert>-->
+
+    </target>
+
+    <target name="docbook" depends="asciidoctor-def,clean">
+        <asciidoctor:convert sourceDirectory="${basedir}/src/asciidoc" sourceDocumentName="test.adoc" outputDirectory="${basedir}/target"/>
+    </target>
+
+    <target name="html5" depends="asciidoctor-def,clean">
+        <asciidoctor:convert sourceDirectory="${basedir}/src/asciidoc" sourceDocumentName="test.adoc" outputDirectory="${basedir}/target" backend="html5"/>
+    </target>
+
+    <target name="pdf" depends="asciidoctor-def,clean">
+        <asciidoctor:convert sourceDirectory="${basedir}/src/asciidoc" sourceDocumentName="test.adoc" outputDirectory="${basedir}/target" backend="pdf"/>
+    </target>
+
+    <target name="attribute" depends="asciidoctor-def,clean">
+        <asciidoctor:convert sourceDirectory="${basedir}/src/asciidoc" sourceDocumentName="test.adoc" outputDirectory="${basedir}/target" backend="html5">
+            <attribute key="title" value="Asciidoc Ant"/>
+            <attribute key="toc" value="left"/>
+        </asciidoctor:convert>
+    </target>
+
+    <target name="resource" depends="asciidoctor-def,clean">
+        <asciidoctor:convert sourceDirectory="${basedir}/src/asciidoc" sourceDocumentName="test.adoc" outputDirectory="${basedir}/target">
+            <resource dir="${basedir}/src/asciidoc/images" includes="*.jpg"/>
+        </asciidoctor:convert>
+    </target>
+
+    <target name="twitter" depends="asciidoctor-def,clean">
+        <asciidoctor:convert sourceDirectory="${basedir}/src/asciidoc" sourceDocumentName="twitter.adoc" outputDirectory="${basedir}/target" backend="html5">
+            <inlineMacroProcessor blockName="twitter" className="com.github.binout.asciidoctor.extensions.TwitterMacro"/>
+        </asciidoctor:convert>
+    </target>
+
+    <target name="diagram" depends="asciidoctor-def,clean">
+        <asciidoctor:convert sourceDirectory="${basedir}/src/asciidoc" sourceDocumentName="diagram.adoc" outputDirectory="${basedir}/target" backend="html5" gemPaths="${basedir}/gems-provided">
+            <require name="asciidoctor-diagram"/>
+            <resource dir="${basedir}/src/asciidoc/images" includes="*.png"/>
+        </asciidoctor:convert>
+    </target>
+
+
+
+    <target name="all" depends="clean, build-artifacts"/>
+
+</project>

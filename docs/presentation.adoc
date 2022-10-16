@@ -1,0 +1,73 @@
+= GIT presentation & tutorial
+:author: Pascal Munerot <pascal.munerot@gmail.com>
+:date: 2021-06-14
+:icons: font
+// we want local served fonts. Therefore patched sky.css
+//:revealjs_theme: sky
+:revealjs_customtheme: css/sky.css
+:revealjs_autoSlide: 5000
+:revealjs_history: true
+:revealjs_fragmentInURL: true
+:revealjs_viewDistance: 5
+:revealjs_width: 1408
+:revealjs_height: 792
+:revealjs_controls: true
+:revealjs_controlsLayout: edges
+:revealjs_controlsTutorial: true
+:revealjs_slideNumber: c/t
+:revealjs_showSlideNumber: speaker
+:revealjs_autoPlayMedia: true
+:revealjs_defaultTiming: 42
+//:revealjs_transitionSpeed: fast
+:revealjs_parallaxBackgroundImage: images/background-landscape-light-orange.jpg
+:revealjs_parallaxBackgroundSize: 4936px 2092px
+:customcss: css/presentation.css
+:imagesdir: images
+:source-highlighter: highlightjs
+:highlightjs-theme: css/atom-one-light.css
+// we want local served font-awesome fonts
+:iconfont-remote!:
+:iconfont-name: fonts/fontawesome/css/all
+
+[.notes]
+--
+* A presentation on GIT basic usage.
+
+* Identify potential use case for GIT beyond development
+
+
+--
+
+//include::presentation-intro.adoc[]
+
+include::presentation-agenda.adoc[]
+
+include::presentation-getting-started.adoc[]
+
+
+include::presentation-appendix.adoc[]
+
+== Tutorials
+
+* https://git-scm.com/docs/gittutorial[]
+=======
+= GIT presentation & tutorial
+:author: Pascal Munerot <pascal.munerot@gmail.com>
+:date: 2021-06-14
+:doctype: book
+:imagesdir: images
+:source-highlighter: rouge
+
+
+--
+* A presentation on GIT basic usage.
+
+* Identify potential use cases for GIT with and beyond development.
+--
+
+
+
+include::presentation-agenda.adoc[]
+include::git-main-concepts.adoc[]
+include::git-basic-commands.adoc[]
+include::presentation-appendix.adoc[]

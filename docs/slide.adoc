@@ -1,0 +1,21 @@
+//include::_settings_reveal.adoc[]
+include::_settings_deck.adoc[]
+include::_settings_vars.adoc[]
+
+:author: Pascal Munerot <pascal.munerot@glory-global.com>
+:date: 2021-06-14
+:imagesdir: images
+:icons: font
+
+include::presentation-agenda.adoc[]
+
+include::git-getting-started.adoc[]
+
+include::git-main-concepts.adoc[]
+
+include::git-basic-commands.adoc[]
+
+include::glory-specific.adoc[]
+
+include::presentation-appendix.adoc[]
+
